@@ -13,7 +13,7 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Zara - Admin Auth",
+  title: "ZAra - Admin Auth",
   description: "Admin dashboard to manage Zara's data",
 };
 

@@ -9,6 +9,7 @@ import {
 } from "@clerk/nextjs";
 
 import "../globals.css";
+import LeftSideBar from "@/components/layout/LeftSideBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
           <SignedIn>
             <UserButton />
           </SignedIn>
+          <LeftSideBar/>
           {children}
         </body>
       </html>
